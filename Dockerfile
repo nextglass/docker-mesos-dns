@@ -1,3 +1,7 @@
+# Mesos-DNS
+#
+# VERSION 1.0.0
+
 FROM golang
 
 RUN git clone https://github.com/mesosphere/mesos-dns.git /go/src/mesos-dns
