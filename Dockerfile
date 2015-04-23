@@ -15,6 +15,6 @@ RUN chmod a+x /go/src/mesos-dns/start.sh
 
 WORKDIR /go/src/mesos-dns
 
-EXPOSE 53
+EXPOSE 53 8123
 
 CMD /go/src/mesos-dns/start.sh
